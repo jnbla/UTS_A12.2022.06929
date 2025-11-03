@@ -1,0 +1,272 @@
+/* Jumbotron Retro */
+.jumbotron-retro 
+{
+  background            : #fffbe7;
+  /* border: 4px solid #a259ff; */
+  border-radius         : 18px;
+  box-shadow            : 6px 6px 0 white, 0 0 0 4px #000 inset;
+  margin-top            : 24px;
+  margin-bottom         : 32px;
+  padding               : 36px 18px 28px 18px;
+  font-family           : 'Press Start 2P', monospace;
+  position              : relative;
+}
+.jumbotron-retro h1 
+{
+  font-size             : 2.1rem;
+  color                 : #a259ff;
+  text-shadow           : 2px 2px #ffde59, 0 0 2px #000;
+  margin-bottom         : 12px;
+}
+.jumbotron-retro p 
+{
+  color                 : #3d0066;
+  font-family           : 'Poppins', Arial, sans-serif;
+  font-size             : 1.1em;
+  margin-bottom         : 18px;
+}
+.jumbotron-retro .btn 
+{
+  font-family           : 'Press Start 2P', monospace;
+  font-size             : 1em;
+  border                : 2.5px solid #a259ff;
+  box-shadow            : 2px 2px #ffde59;
+  border-radius         : 10px;
+  background            : #ffde59;
+  color                 : #3d0066;
+  transition            : 0.15s;
+}
+.jumbotron-retro .btn:hover 
+{
+  background            : #a259ff;
+  color                 : #fffbe7;
+  border-color          : #ffde59;
+  box-shadow            : 4px 4px #a259ff;
+}
+@media (max-width: 600px) 
+{
+  .jumbotron-retro {
+    padding             : 18px 6px 14px 6px;
+  }
+  .jumbotron-retro h1 
+  {
+    font-size           : 1.2rem;
+  }
+}
+/* Testimoni Retro */
+.testimoni-retro-wrapper 
+{
+  gap                   : 24px;
+}
+.testimoni-retro-box 
+{
+  background            : #fffbe7;
+  border                : 3.5px solid #000;
+  border-radius         : 10px;
+  box-shadow            : 4px 4px #a259ff, 0 0 0 4px #ffde59 inset;
+  padding               : 18px 22px 12px 22px;
+  min-width             : 220px;
+  max-width             : 320px;
+  margin-bottom         : 8px;
+  display               : flex;
+  flex-direction        : column;
+  align-items           : flex-start;
+}
+.testimoni-retro-header 
+{
+  font-family           : 'Press Start 2P', monospace;
+  font-size             : 0.9em;
+  color                 : #3d0066;
+}
+.testimoni-retro-avatar 
+{
+  font-size             : 1.3em;
+  filter                : drop-shadow(1px 1px 0 #ffde59);
+}
+.testimoni-retro-name 
+{
+  font-weight           : bold;
+  color                 : #a259ff;
+  font-size             : 1em;
+  letter-spacing        : 1px;
+}
+.testimoni-retro-city 
+{
+  font-size             : 0.9em;
+  color                 : #3d0066;
+  font-family           : 'Poppins', Arial, sans-serif;
+  background            : #ffde59;
+  border-radius         : 6px;
+  padding               : 2px 8px;
+  margin-left           : 4px;
+}
+.testimoni-retro-bubble 
+{
+  font-size             : 1.05em;
+  font-family           : 'Poppins', Arial, sans-serif;
+  color                 : #222;
+  background            : #fff;
+  border                : 2.5px dashed #a259ff;
+  border-radius         : 8px;
+  margin-top            : 6px;
+  padding               : 12px 14px;
+  box-shadow            : 2px 2px #ffde59;
+}
+body {
+  font-family           : 'Press Start 2P', monospace;
+  background-color      : #fff;
+  color                 : #000;
+  font-size             : 10px;
+}
+
+/* Header */
+.header 
+{
+  background            : white;
+  border-bottom         : 5px solid #000;
+  position              : -webkit-sticky;
+}
+
+.logo 
+{
+  font-size             : 2rem;
+  text-transform        : uppercase;
+}
+
+.btn-nav 
+{
+  text-decoration       : none;
+  color                 : black;
+  background            : #fff;
+  border                : 2px solid #000;
+  padding               : 4px 8px;
+  box-shadow            : 3px 3px #000;
+  font-size             : 0.8rem;
+  transition            : 0.2s;
+}
+
+.btn-nav:hover {
+  background            : #ffde59;
+  transform             : translateY(-2px);
+}
+
+/* Announcement Card */
+.announcement-bar {
+  font-family           : 'Press Start 2P', monospace;
+  font-size             : 14px;
+  background            : #fff;
+  overflow              : hidden;
+  white-space           : nowrap;
+  border-radius         : 8px;
+  box-shadow            : 3px 3px #000;
+  padding               : 6px 0;
+}
+
+.scroll-text {
+  display               : inline-block;
+  animation             : scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform           : translateX(100%);
+  }
+  100% {
+    transform           : translateX(-100%);
+  }
+}
+
+@media (max-width: 768px) {
+  .announcement-bar {
+    font-size           : 8px;
+  }
+}
+
+/* Ketegori Sticker */
+.kategori-btn {
+      font-family       : 'Press Start 2P', monospace;
+      font-size         : 0.8rem;
+      border            : 2px solid #000;
+      box-shadow        : 2px 2px #000;
+      margin-bottom     : 4px;
+      transition        : 0.15s;
+    }
+    .kategori-btn:hover {
+      background        : #ffde59 !important;
+      color             : #000 !important;
+      border-color      : #000 !important;
+      transform         : translateY(-2px);
+    }
+    .testimoni-wrapper {
+      gap               : 24px;
+    }
+    .testimoni-box {
+      background        : #fffbe7;
+      border            : 2.5px solid #a259ff;
+      border-radius     : 12px;
+      box-shadow        : 3px 3px #ffde59;
+      padding           : 18px 22px 12px 22px;
+      min-width         : 220px;
+      max-width         : 320px;
+      margin-bottom     : 8px;
+      display           : flex;
+      flex-direction    : column;
+      align-items       : flex-start;
+    }
+    .testimoni-quote {
+      font-size         : 1.05em;
+      font-family       : 'Poppins', Arial, sans-serif;
+      color             : #3d0066;
+      margin-bottom     : 10px;
+    }
+    .testimoni-footer {
+      font-size         : 0.9em;
+      color             : #a259ff;
+      font-family       : 'Press Start 2P', monospace;
+    }
+
+/* Product Card */
+.product-card {
+  border                : 4px solid #000;
+  background            : #bfe6ff;
+  box-shadow            : 6px 6px #000;
+  transition            : 0.3s;
+}
+
+.product-card:hover {
+  background            : #fff3b0;
+  transform             : translateY(-4px);
+}
+
+.card-title {
+  font-size             : 0.8rem;
+  margin-top            : 10px;
+}
+
+.card-text {
+  font-size             : 0.6rem;
+  color                 : #222;
+}
+
+.btn-pixel {
+  border                : 3px solid #000;
+  background            : #ffb6c1;
+  color                 : #000;
+  font-size             : 0.6rem;
+  padding               : 6px;
+  box-shadow            : 3px 3px #000;
+  cursor                : pointer;
+  transition            : 0.2s;
+}
+
+.btn-pixel:hover {
+  background            : #ffe066;
+  transform             : translateY(-2px);
+}
+
+/* Footer */
+footer {
+  font-size             : 0.6rem;
+  color                 : #333;
+  background            : #fff;
+}

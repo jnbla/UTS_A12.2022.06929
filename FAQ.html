@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ - meowspace.</title>
+  <link rel="stylesheet" href="css/faq.css">
+</head>
+<body>
+
+  <div class="faq-section">
+    <a href="index.html" style="display:inline-block;margin-bottom:18px;padding:8px 18px;border:2px solid #a259ff;border-radius:8px;background:#ffde59;color:#3d0066;font-family:'Press Start 2P',monospace;text-decoration:none;box-shadow:2px 2px #a259ff;font-size:0.9em;">&larr; Kembali ke Beranda</a>
+    <h2 class="faq-title">FAQ - meowspace. Stiker Meme Kucing Retro</h2>
+
+    <!-- FAQ 1 -->
+    <div class="faq-item">
+      <div class="faq-question" onclick="tampilJawaban(1)">
+        1. Apakah stiker kucing tahan air?
+      </div>
+      <div class="faq-answer" id="jawaban1">
+        Ya, semua stiker kucing kami menggunakan bahan vinyl yang tahan air dan tidak mudah luntur.
+      </div>
+    </div>
+
+    <!-- FAQ 2 -->
+    <div class="faq-item">
+      <div class="faq-question" onclick="tampilJawaban(2)">
+        2. Apakah bisa custom desain stiker kucing sendiri?
+      </div>
+      <div class="faq-answer" id="jawaban2">
+        Tentu! Anda bisa mengirimkan desain kucing sendiri, atau request nama pada stiker sesuai keinginan.
+      </div>
+    </div>
+
+    <!-- FAQ 3 -->
+    <div class="faq-item">
+      <div class="faq-question" onclick="tampilJawaban(3)">
+        3. Bagaimana cara pemesanan dan pembayaran?
+      </div>
+      <div class="faq-answer" id="jawaban3">
+        Pemesanan bisa dilakukan melalui website kami atau chat WhatsApp. Pembayaran dapat melalui transfer bank atau e-wallet.
+      </div>
+    </div>
+
+    <!-- FAQ 4 -->
+    <div class="faq-item">
+      <div class="faq-question" onclick="tampilJawaban(4)">
+        4. Apakah bisa kirim ke seluruh Indonesia?
+      </div>
+      <div class="faq-answer" id="jawaban4">
+        Ya, kami melayani pengiriman ke seluruh Indonesia menggunakan jasa ekspedisi terpercaya.
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Fungsi sederhana untuk menampilkan jawaban
+    function tampilJawaban(no) {
+      var jawaban = document.getElementById("jawaban" + no);
+      if (jawaban.style.display === "none" || jawaban.style.display === "") {
+        jawaban.style.display = "block";
+      } else {
+        jawaban.style.display = "none";
+      }
+    }
+  </script>
+
+</body>
+</html>
